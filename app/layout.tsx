@@ -9,25 +9,25 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "ぷらっとハウス北新宿 | 大久保駅徒歩10分 80㎡3LDK戸建て 最大10名 民泊",
+  title: "ぷらっとハウス三ノ輪 | 三ノ輪駅徒歩6分 80㎡3DK戸建て 最大8名 民泊",
   description:
-    "大久保駅（JR総武線）徒歩10分・東中野駅徒歩7分。80㎡の3LDK戸建て一棟貸切・最大10名。Netflix・キッチン・浴槽・ソファーベッド完備。新宿観光・グループ旅行に最適。",
+    "三ノ輪駅（東京メトロ日比谷線）徒歩6分。80㎡の3DK戸建て一棟貸切・最大8名。Netflix・Nintendo Switch・キッチン完備。浅草・上野エリアのグループ旅行に最適。",
   keywords:
-    "ぷらっとハウス北新宿, 大久保 民泊, 北新宿 宿泊, 新宿 戸建て 民泊, 新宿 グループ宿泊, 東中野 民泊, Kitashinjuku accommodation, Tokyo group stay",
+    "ぷらっとハウス三ノ輪, 三ノ輪 民泊, 台東区 民泊, 三ノ輪駅 宿泊, 浅草近く 民泊, Minowa accommodation, Tokyo group stay",
   openGraph: {
-    title: "ぷらっとハウス北新宿 | 大久保駅10分 80㎡3LDK 最大10名",
+    title: "ぷらっとハウス三ノ輪 | 三ノ輪駅6分 80㎡3DK 最大8名",
     description:
-      "大久保駅10分・東中野駅7分。80㎡3LDK戸建て一棟貸切・最大10名。Netflix・キッチン・浴槽完備。",
-    url: "https://kitashinjuku.plat-house.jp",
-    siteName: "Plat House Kitashinjuku",
+      "三ノ輪駅6分。80㎡3DK戸建て一棟貸切・最大8名。Netflix・Nintendo Switch・キッチン完備。",
+    url: "https://minowa.plat-house.jp",
+    siteName: "Plat House Minowa",
     locale: "ja_JP",
     type: "website",
   },
   alternates: {
-    canonical: "https://kitashinjuku.plat-house.jp",
+    canonical: "https://minowa.plat-house.jp",
     languages: {
-      "ja": "https://kitashinjuku.plat-house.jp",
-      "en": "https://kitashinjuku.plat-house.jp/en",
+      "ja": "https://minowa.plat-house.jp",
+      "en": "https://minowa.plat-house.jp/en",
     },
   },
 };
@@ -43,25 +43,24 @@ export default function RootLayout({
         <Script id="json-ld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LodgingBusiness",
-          "name": "ぷらっとハウス北新宿",
-          "url": "https://kitashinjuku.plat-house.jp",
+          "name": "ぷらっとハウス三ノ輪",
+          "url": "https://minowa.plat-house.jp",
           "telephone": "08070583086",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "北新宿４－２１－１７",
-            "addressLocality": "新宿区",
+            "streetAddress": "竜泉３－３－９",
+            "addressLocality": "台東区",
             "addressRegion": "東京都",
-            "postalCode": "169-0074",
+            "postalCode": "110-0012",
             "addressCountry": "JP"
           },
           "checkinTime": "16:00",
           "checkoutTime": "11:00",
-          "priceRange": "¥30,000〜¥70,000",
+          "priceRange": "¥22,000〜¥33,000",
           "amenityFeature": [
             { "@type": "LocationFeatureSpecification", "name": "Netflix", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "Nintendo Switch", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "キッチン", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "浴槽", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "ポケットWi-Fi", "value": true }
           ]
         }) }} />
