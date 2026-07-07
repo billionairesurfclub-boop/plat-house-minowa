@@ -9,6 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "gXHCgYW1liWYzDHLdMnZqsms3IllJliPGWeecgZRK5E",
+  },
   title: "ぷらっとハウス三ノ輪 | 三ノ輪駅徒歩6分 80㎡3DK戸建て 最大8名 民泊",
   description:
     "三ノ輪駅（東京メトロ日比谷線）徒歩6分。80㎡の3DK戸建て一棟貸切・最大8名。Netflix・Nintendo Switch・キッチン完備。浅草・上野エリアのグループ旅行に最適。",
