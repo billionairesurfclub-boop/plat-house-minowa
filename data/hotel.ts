@@ -91,7 +91,7 @@ export const rooms = [
       ja: "ダブルベッド1台の寝室。ゆったりお過ごしいただけます。",
       en: "Bedroom with 1 double bed. Comfortable and relaxing.",
     },
-    images: [],
+    images: ["room-1-1.jpg"],
   },
   {
     id: "room-2",
@@ -103,7 +103,7 @@ export const rooms = [
       ja: "ダブルベッド2台の広い寝室。グループ・ファミリーに最適です。",
       en: "Spacious bedroom with 2 double beds. Perfect for groups and families.",
     },
-    images: [],
+    images: ["room-2-1.jpg"],
   },
   {
     id: "room-3",
@@ -115,7 +115,7 @@ export const rooms = [
       ja: "クイーンベッドの落ち着いた寝室。ゆったりとお休みいただけます。",
       en: "Relaxing bedroom with 1 queen bed.",
     },
-    images: [],
+    images: ["room-3-1.jpg"],
   }
 ];
 
